@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 import "hardhat/console.sol"; //loging
@@ -9,9 +10,9 @@ contract uchiha_portal {
  }
 
 
-function the_izanami_technique() public {
+function izanami_jutsu() public {
     izanami += 1;
-    console.log("%s is in never-ending illusion",msg.sender);
+    console.log("%s is in a never-ending illusion",msg.sender);
 }
 
 function get_total_izanami() view public returns (uint) {
